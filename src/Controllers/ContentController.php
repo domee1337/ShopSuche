@@ -11,6 +11,7 @@ class ContentController extends Controller
 	public function sendRequest(Request $request)
 	{
 		$rs = $request->all();
+		$curl = curl_init();
 		$url = "http://pherrewyn1.timmeserver.de/suche/";
         $url = sprintf("%s?%s", $url, http_build_query($rs));
         curl_setopt($curl, CURLOPT_URL, $url);

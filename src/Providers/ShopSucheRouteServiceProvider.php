@@ -12,7 +12,7 @@ class ShopSucheRouteServiceProvider extends RouteServiceProvider
 	 */
 	public function map(Router $router)
 	{
-		$router->get('rest/suche', 'ShopSuche\Controllers\ContentController@sendRequest');
+		$router->get('websuche', 'ShopSuche\Controllers\ContentController@sendRequest');
 	}
 
 }

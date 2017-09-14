@@ -1,0 +1,8 @@
+{
+    "name": "ShopSuche",
+    "description": "Eigene Shop Suche",
+    "namespace": "ShopSuche",
+    "author": "Dominik Joedecke",
+    "type": "template",
+    "serviceProvider": "ShopSuche\\Providers\\ShopSucheServiceProvider"
+}
